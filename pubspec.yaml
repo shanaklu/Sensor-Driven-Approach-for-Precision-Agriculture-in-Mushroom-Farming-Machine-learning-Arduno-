@@ -1,0 +1,47 @@
+name: mushroom_farming
+description: "A mobile application for monitoring and managing mushroom farming conditions."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter: 
+    sdk: flutter
+
+  # Adding required packages
+  cupertino_icons: ^1.0.8
+  percent_indicator: ^4.2.2
+  provider: ^6.1.2  # Downgraded to the latest compatible version
+  http: ^1.1.0  # Latest version of the http package
+  flutter_local_notifications: ^13.0.0  # For notifications
+  flutter_svg: ^1.1.6  # For rendering SVG images
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Including assets
+  assets:
+    - assets/logo.png
+    - assets/
+
+  # If you want to include custom fonts
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
