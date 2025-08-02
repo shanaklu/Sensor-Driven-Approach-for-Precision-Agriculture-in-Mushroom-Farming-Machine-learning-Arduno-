@@ -1,16 +1,44 @@
 # mushroom_farming
-
-A new Flutter project.
+React Native Project
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a mobile application built using **React Native**.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Make sure you have the following installed:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Node.js
+- npm or yarn
+- React Native CLI or Expo CLI
+- Android Studio and/or Xcode for mobile emulators
+- Git (optional but recommended)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/mushroom_farming.git
+   cd mushroom_farming
+
+1.Install dependencies:
+   npm install
+       # or
+          yarn install
+2.Start the development server:
+   npx react-native start
+Run the app:
+
+For Android: npx react-native run-android
+For iOS: npx react-native run-ios (Mac only)
+
+Helpful Resources for Beginners
+📘 React Native Docs
+
+🧪 React Native Testing Library
+
+💡 React Navigation
+
+🔥 Expo Documentation (if you're using Expo)
+
